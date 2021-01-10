@@ -34,4 +34,3 @@ spatial_data_read<-function(dir, ext){
     names(aux)<-as.character(cellsFromExtent(rast, ext))
     return(aux)
   }
-}
