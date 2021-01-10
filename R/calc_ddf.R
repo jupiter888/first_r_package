@@ -1,8 +1,8 @@
-#' Calc_ddf
+#' Delta and Historical DDF Calculation
 #'
-#' @param ddf.data
+#' @param ddf.data Dataset processed with historical RCP
 #'
-#' @return
+#' @return A dataset prepared for plotting,containing all the data
 #' @export
 #'
 #' @examples
