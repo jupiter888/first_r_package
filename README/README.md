@@ -1,33 +1,19 @@
 First R Package
 ================
 
-## GitHub Documents
+## GitHub
 
-This is an R Markdown format used for publishing markdown documents to
-GitHub. When you click the **Knit** button all R code chunks are run and
-a markdown file (.md) suitable for publishing to GitHub is generated.
-
-## Including Code
-
-You can include R code in the document as follows:
+This is my first R package, feel free to contact me using the email in
+the description for questions \#\#Installation
 
 ``` r
-summary(cars)
+devtools::install_github('https://github.com/jupiter888/first_r_package')
 ```
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+## Details on how to use package
 
-## Including Plots
-
-You can also embed plots, for example:
-
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+    ddf_pr is used for precipitation ddf (depth duration frequency curves)
+    calc_ddf calculates ddf
+    spatial_data_read is able to read spatial data and process
+    forcing_dates is used to get dates from files names
+    data_read will read in data
