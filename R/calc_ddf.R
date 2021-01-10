@@ -14,5 +14,8 @@ calc_ddf <- function(ddf.data) {
   #Difference(delta)
   DDDF=hDDF[ddf.data, on=c('Duration','Freq','hour','GCM','RCM', 'Run')]
   DDDF[,delta:=Depth/hDepth]
+  #Beautifying
+  DDDF[, 5:=NULL]
+  setnames(DDDF, 'i.RCP', 'RCP')
   return(DDDF)
 }
